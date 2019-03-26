@@ -1,0 +1,42 @@
+
+Describe the data that you will be using to solve the problem or execute 
+your idea. Remember that you 
+will need to use the Foursquare location data to solve the problem or 
+execute your idea. You can 
+absolutely use other datasets in combination with the Foursquare location 
+data. So make sure that you 
+provide adequate explanation and discussion, with examples, of the data 
+that you will be using, even if it 
+is only Foursquare location data.
+
+
+
+Data Section
+
+
+
+The project happens in two phases both using Foursquare data.
+The client wants to focus on restaurant trends centered on the borough of 
+Manhattan in New York City.  
+
+The first data set will be to identify a central point of Manhattan and 
+then pull the hot trend data from 
+Foursquare.  The hottest 3 types of restaurants will be identified and 
+ranked.
+
+The data from Foursquare will use the Foursquare Trending API filtered by 
+a radius from a central 
+Manhattan latitude and longitude.  The radius will likely be a distance 
+similar to ½ of the distance 
+between centroids in the Toronto area from the Week 3 assignment.
+
+This is the first data set - the Trending API return data from New York.
+ 
+From there all of those restaurants of the 3 identified types are pulled 
+throughout Toronto.  This is the 
+second data set using the Foursquare Places API.
+
+Those restaurant locations distances from cluster 
+centroids will be determined with the lowest density of location type by 
+centroid being the best area to 
+open a new restaurant. 

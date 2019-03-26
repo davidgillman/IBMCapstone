@@ -1,0 +1,51 @@
+Clearly define a problem or an idea of your choice, where you would need 
+to leverage the Foursquare 
+location data to solve or execute. Remember that data science problems 
+always target an audience and 
+are meant to help a group of stakeholders solve a problem, so make sure 
+that you explicitly describe 
+your audience and why they would care about your problem.
+
+
+Introduction/Business Problem Section
+
+
+Imagine I am working for a restaurant entrepreneur who lives in Toronto.  
+Let us call this person “Chef”.
+
+Chef sees the cultural and financial similarities between New York and 
+Toronto.  As eatery trends start in 
+one city they are likely to be picked up in the other within a year.  The 
+delay is usually due to other 
+restaurant operators needing to observe the changes.  This takes time.
+
+Chef wants to be ahead of that crowd and open a trendy restaurant several 
+months earlier.  I have told 
+Chef I can use Foursquare data for New York to spot the hottest trend in 
+restaurants.
+
+Being in Toronto, Chef needs to know the hot, trendy restaurant types in 
+New York and then see what 
+neighborhoods in Toronto do not have any of those types of restaurants.  
+I will determine the 3 types of 
+restaurants in New York that have the most trending indicated on 
+Foursquare.
+
+The problem is less exact than specific locations since factors such as 
+amount of traffic in the area, 
+pedestrian access, parking, frontage and specific retail location must be 
+weighed.  However, using the 
+postal code data is too fine grained.  I will use the clusters generated 
+in Week 3 assignment to 
+determine the best region of Toronto to investigate putting a new 
+restaurant.
+
+My project will guide the Chef (or other restaurant entrepreneurs) on 
+opening new restaurants more 
+quickly.  Reducing the time to open hot new locations in targeted areas 
+puts the Chef (or other 
+restaurant entrepreneurs) ahead of his competition.
+
+
+
+
